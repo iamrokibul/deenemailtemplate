@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deen</title>
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/century-gothic');
+        *{margin: 0; padding: 0; box-sizing: border-box;}
+        body{
+            font-size: 14px;
+            font-family: 'Century Gothic', sans-serif;
+            font-size: 18px;
+        }
+        main{
+            width: 768px;
+            height: auto;
+            margin: 20px auto;
+            border: 1px solid #ddd;
+            padding: 10px;
+            overflow: hidden;
+        }
+        header{width: 100%; }
+        .logo{
+            width: 200px;
+            height: 90px;
+            margin: 0 auto;
+        }
+        .logo img{
+            width: 100%;
+            height: 100%;
+        }
+        section{
+            margin: 30px 0;
+        }
+        .hero_area{
+            margin: 0;
+            text-align: center;
+        }
+        .hero_area h3{
+            font-size: 40px;
+        }
+        .hero_pic img{
+            margin-left: 30px;
+        }
+        .products{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .single_product{
+            width: 31.5%;
+            height: auto;
+            border: 1px solid #ddd;
+            margin: 0 5px;
+            padding: 0 5px 15px;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        div.remove-from-mobile{
+            display: block;
+        }
+        .product_pic img{
+            width: 100%;
+            height: 100%;
+        }
+        .single_product h3{
+            font-size: 15px;
+            text-transform: capitalize;
+            margin-bottom: 5px;
+        }
+        .single_product a.btn {
+            padding: 5px 15px;
+            border: 1px solid #aaa;
+            background: #fff;
+            margin-top: 10px;
+            display: inline-block;
+            text-decoration: none;
+            color: #000;
+            font-size: 16px;
+            transition: .5s;
+        }
+        .single_product a.btn:hover{
+            background: #000;
+            color: #fff;
+            border-color: #000;
+        }
+
+        footer{
+            text-align: center;
+            border-top: 1px solid #ddd;
+            padding-top: 10px;
+            font-size: 15px;
+        }
+        @media screen and (max-width: 414px) {
+            main{
+                width: 100%;
+                height: auto;
+                margin: 0px auto;
+                border: 1px solid #ddd;
+                padding: 10px;
+                overflow: hidden;
+            }
+            .hero_area h3 {
+                font-size: 36px;
+            }
+            .logo {
+                width: 140px;
+                height: 50px;
+                margin: 0px auto;
+                margin-bottom: 10px;
+            }
+            .hero_pic img {
+                margin-left: 0;
+                width: 100%;
+            }
+            .products{
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .single_product {
+                width: 47%;
+                margin-bottom: 10px;
+            }
+            
+            div.remove-from-mobile{
+                display: none;
+            }
+        }
+    </style>
+
+</head>
+<body>
+    <main>
+        <header>
+            <div class="logo">
+                <a href="#"><img src="https://deencommerce.com/wp-content/uploads/2022/12/Modified-1260-by-327.svg" alt=""></a>
+            </div>
+        </header>
+        
+            <section class="hero_area">
+                <div class="hero_pic"><img src="http://fonts.deendaily.org/email.jpg" alt=""></div>
+                <h3>New Arrival!</h3>
+            </section>
+            <section class="products">
+                <div class="single_product">
+                    <div class="product_pic">
+                        <a href="#"><img src="https://deencommerce.com/wp-content/uploads/2023/02/Players-Lounge-Black-Joggers-1.jpg" alt=""></a>
+                    </div>
+                    <h3>Lounge Black Joggers</h3>
+                    <a class="btn" href="#">Shop Now</a>
+                </div>
+                <div class="single_product">
+                    <div class="product_pic">
+                        <a href="#"><img src="https://deencommerce.com/wp-content/uploads/2023/02/Players-Lounge-Black-Joggers-1.jpg" alt=""></a>
+                    </div>
+                    <h3>Product One</h3>
+                    <a class="btn" href="#">Shop Now</a>
+                </div>
+                <div class="single_product remove-from-mobile">
+                    <div class="product_pic">
+                        <a href="#"><img src="https://deencommerce.com/wp-content/uploads/2023/02/Players-Lounge-Black-Joggers-1.jpg" alt=""></a>
+                    </div>
+                    <h3>Product One</h3>
+                    <a class="btn" href="#">Shop Now</a>
+                </div>
+                <div class="single_product">
+                    <div class="product_pic">
+                        <a href="#"><img src="https://deencommerce.com/wp-content/uploads/2023/02/Players-Lounge-Black-Joggers-1.jpg" alt=""></a>
+                    </div>
+                    <h3>Product One</h3>
+                    <a class="btn" href="#">Shop Now</a>
+                </div>
+                <div class="single_product">
+                    <div class="product_pic">
+                        <a href="#"><img src="https://deencommerce.com/wp-content/uploads/2023/02/Players-Lounge-Black-Joggers-1.jpg" alt=""></a>
+                    </div>
+                    <h3>Product One</h3>
+                    <a class="btn" href="#">Shop Now</a>
+                </div>
+                <div class="single_product remove-from-mobile">
+                    <div class="product_pic">
+                        <a href="#"><img src="https://deencommerce.com/wp-content/uploads/2023/02/Players-Lounge-Black-Joggers-1.jpg" alt=""></a>
+                    </div>
+                    <h3>Product One</h3>
+                    <a class="btn" href="#">Shop Now</a>
+                </div>
+                <div class="single_product">
+                    <div class="product_pic">
+                        <a href="#"><img src="https://deencommerce.com/wp-content/uploads/2023/02/Players-Lounge-Black-Joggers-1.jpg" alt=""></a>
+                    </div>
+                    <h3>Product One</h3>
+                    <a class="btn" href="#">Shop Now</a>
+                </div>
+                <div class="single_product">
+                    <div class="product_pic">
+                        <a href="#"><img src="https://deencommerce.com/wp-content/uploads/2023/02/Players-Lounge-Black-Joggers-1.jpg" alt=""></a>
+                    </div>
+                    <h3>Product One</h3>
+                    <a class="btn" href="#">Shop Now</a>
+                </div>
+                <div class="single_product remove-from-mobile">
+                    <div class="product_pic">
+                        <a href="#"><img src="https://deencommerce.com/wp-content/uploads/2023/02/Players-Lounge-Black-Joggers-1.jpg" alt=""></a>
+                    </div>
+                    <h3>Product One</h3>
+                    <a class="btn" href="#">Shop Now</a>
+                </div>
+            </section>
+        
+        <footer>
+            <p>Copyright © 2023 | Deen</p>
+        </footer>
+    </main>
+</body>
+</html>
